@@ -1,1 +1,110 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+
+// 1. Базовый класс Растение
+class Plant
+{
+    public string Name { get; set; }
+    public string Type { get; set; }
+    public float Height { get; set; }
+
+    public Plant(string name, string type, float height)
+    {
+        Name = name;
+        Type = type;
+        Height = height;
+    }
+
+    // Виртуальный метод — наследники смогут его переопределить
+    public virtual void Bloom()
+    {
+        Console.WriteLine($"Растение {Name} цветет.");
+    }
+
+    public void Grow(float growth)
+    {
+        Height += growth;
+        Console.WriteLine($"Растение {Name} выросло на {growth} см. Текущая высота: {Height} см.");
+    }
+}
+
+// 2. Класс Цветок — наследуется от Растение
+class Flower : Plant
+{
+    public string Color { get; set; }
+    public int PetalCount { get; set; }
+
+    public Flower(string name, float height, string color, int petalCount)
+        : base(name, "Цветок", height)
+    {
+        Color = color;
+        PetalCount = petalCount;
+    }
+
+    // Переопределяем метод Цветение()
+    public override void Bloom()
+    {
+        Console.WriteLine($"Цветок {Name} распускается и радует глаз! Цвет: {Color}, лепестков: {PetalCount}.");
+    }
+
+    public void Wither()
+    {
+        Console.WriteLine($"Цветок {Name} начинает увядать...");
+    }
+}
+
+// 3. Класс Дерево — наследуется от Растение
+class Tree : Plant
+{
+    public int Age { get; set; }
+    public string LeafType { get; set; }
+
+    public Tree(string name, float height, int age, string leafType)
+        : base(name, "Дерево", height)
+    {
+        Age = age;
+        LeafType = leafType;
+    }
+
+    // Переопределяем метод Цветение()
+    public override void Bloom()
+    {
+        Console.WriteLine($"Дерево {Name} покрывается новыми листьями. Тип листьев: {LeafType}.");
+    }
+
+    public void GrowOlder(int years)
+    {
+        Age += years;
+        Console.WriteLine($"Дерево {Name} постарело на {years} лет. Новый возраст: {Age} лет.");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // 1. Создаём объекты
+        Flower rose = new Flower("Роза", 25.5f, "Красный", 32);
+        Tree oak = new Tree("Дуб", 350.0f, 50, "лиственные");
+
+        Console.WriteLine("=== Демонстрация работы с цветком ===");
+        rose.Bloom();
+        rose.Grow(5.5f);
+        rose.Wither();
+
+        Console.WriteLine("\n=== Демонстрация работы с деревом ===");
+        oak.Bloom();
+        oak.Grow(10.0f);
+        oak.GrowOlder(5);
+
+        // 3. Демонстрация полиморфизма
+        Console.WriteLine("\n=== Демонстрация полиморфизма ===");
+        Plant[] garden = { rose, oak };
+
+        foreach (Plant plant in garden)
+        {
+            // Вызовется версия метода из конкретного класса (Flower или Tree)
+            plant.Bloom();
+        }
+        Console.ReadLine();
+    }
+}
