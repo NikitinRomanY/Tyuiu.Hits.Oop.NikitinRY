@@ -1,0 +1,15 @@
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\bin\Debug\net10.0\SprintReview0.exe
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\bin\Debug\net10.0\SprintReview0.deps.json
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\bin\Debug\net10.0\SprintReview0.runtimeconfig.json
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\bin\Debug\net10.0\SprintReview0.dll
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\bin\Debug\net10.0\SprintReview0.pdb
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.GeneratedMSBuildEditorConfig.editorconfig
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.AssemblyInfoInputs.cache
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.AssemblyInfo.cs
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.csproj.CoreCompileInputs.cache
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.sourcelink.json
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.dll
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\refint\SprintReview0.dll
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.pdb
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\SprintReview0.genruntimeconfig.cache
+c:\Tyuiu.Hits.Oop.NikitinRY\Tyuiu.Hits.Oop.NikitinRY\SprintReview0\obj\Debug\net10.0\ref\SprintReview0.dll
