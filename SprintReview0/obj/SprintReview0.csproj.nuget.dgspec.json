@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj": {}
+    "c:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj": {}
   },
   "projects": {
-    "C:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj": {
+    "c:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj",
+        "projectUniqueName": "c:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj",
         "projectName": "SprintReview0",
-        "projectPath": "C:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj",
+        "projectPath": "c:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\SprintReview0.csproj",
         "packagesPath": "C:\\Users\\4890167\\.nuget\\packages\\",
-        "outputPath": "C:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\obj\\",
+        "outputPath": "c:\\Tyuiu.Hits.Oop.NikitinRY\\Tyuiu.Hits.Oop.NikitinRY\\SprintReview0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -84,7 +84,7 @@ class Program
     {
         // 1. Создаём объекты
         Flower rose = new Flower("Роза", 25.5f, "Красный", 32);
-        Tree oak = new Tree("Дуб", 350.0f, 50, "лиственные");
+        Tree oak = new Tree("Дуб", 350.0f, 50, "Лиственные");
 
         Console.WriteLine("=== Демонстрация работы с цветком ===");
         rose.Bloom();
